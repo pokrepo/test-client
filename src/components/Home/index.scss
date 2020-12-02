@@ -1,0 +1,28 @@
+.home {
+  &-container {
+    margin-top: 25px;
+  }
+}
+
+.test {
+  &-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  &-list-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f5005662;
+    margin: 3px 0;
+    border-radius: 5px;
+  }
+}
+
+.subject {
+  &-list {
+    overflow-y: auto;
+    max-height: 48vh;
+  }
+}

@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #f4f4f4;
+  font-family: -apple-system, BlinkMacSystemFont, "Arial", "Roboto", "Oxygen", "Ubuntu", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #172b4d;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  letter-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1d1d1b;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.container {
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.12);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  .wrapper {
+    flex: 1;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+}
